@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "name": "MovieLens latest-small",
+    "source": "https://files.grouplens.org/datasets/movielens/ml-latest-small.zip",
+    "ratings": 100836,
+    "users": 610,
+    "movies_in_catalog": 9742,
+    "movies_with_ratings": 9724,
+    "rating_scale": "0.5 to 5.0 in 0.5-star increments"
+  },
+  "quality": {
+    "ratings_rows": 100836,
+    "ratings_columns": 4,
+    "movies_rows": 9742,
+    "movies_columns": 3,
+    "unique_users": 610,
+    "unique_movies_rated": 9724,
+    "movie_catalog_size": 9742,
+    "ratings_missing_cells": 0,
+    "movies_missing_cells": 0,
+    "ratings_duplicate_rows": 0,
+    "movies_duplicate_rows": 0,
+    "rating_min": 0.5,
+    "rating_max": 5.0,
+    "rating_mean": 3.501556983616962,
+    "ratings_dtypes": {
+      "userId": "int64",
+      "movieId": "int64",
+      "rating": "float64",
+      "timestamp": "int64"
+    },
+    "movies_dtypes": {
+      "movieId": "int64",
+      "title": "str",
+      "genres": "str"
+    },
+    "invalid_rating_rows": 0,
+    "rows_after_cleaning": 100836,
+    "rows_removed_by_cleaning": 0
+  },
+  "evaluation": {},
+  "demo_user": 414,
+  "recommendations": [
+    {
+      "movieId": 130482,
+      "title": "Too Late for Tears (1949)",
+      "genres": "Crime|Drama|Film-Noir|Mystery|Thriller",
+      "predicted_rating": 4.584607978147837
+    },
+    {
+      "movieId": 136850,
+      "title": "Villain (1971)",
+      "genres": "Crime|Drama|Thriller",
+      "predicted_rating": 4.584607978147837
+    },
+    {
+      "movieId": 190221,
+      "title": "Hommage \u00e0 Zgougou (et salut \u00e0 Sabine Mamou) (2002)",
+      "genres": "Documentary",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 189111,
+      "title": "Spiral (2018)",
+      "genres": "Documentary",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 189043,
+      "title": "Boundaries (2018)",
+      "genres": "Comedy|Drama",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 190207,
+      "title": "Tilt (2011)",
+      "genres": "Drama|Romance",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 190215,
+      "title": "Liquid Truth (2017)",
+      "genres": "Drama",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 190209,
+      "title": "Jeff Ross Roasts the Border (2017)",
+      "genres": "Comedy",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 190213,
+      "title": "John From (2015)",
+      "genres": "Drama",
+      "predicted_rating": 4.560075124997915
+    },
+    {
+      "movieId": 190219,
+      "title": "Bunny (1998)",
+      "genres": "Animation",
+      "predicted_rating": 4.560075124997915
+    }
+  ],
+  "toy_story_similar": [
+    {
+      "movieId": 3114,
+      "title": "Toy Story 2 (1999)",
+      "genres": "Adventure|Animation|Children|Comedy|Fantasy",
+      "similarity": 0.5726012603197153
+    },
+    {
+      "movieId": 480,
+      "title": "Jurassic Park (1993)",
+      "genres": "Action|Adventure|Sci-Fi|Thriller",
+      "similarity": 0.5656368040861564
+    },
+    {
+      "movieId": 780,
+      "title": "Independence Day (a.k.a. ID4) (1996)",
+      "genres": "Action|Adventure|Sci-Fi|Thriller",
+      "similarity": 0.5642616935276659
+    },
+    {
+      "movieId": 260,
+      "title": "Star Wars: Episode IV - A New Hope (1977)",
+      "genres": "Action|Adventure|Sci-Fi",
+      "similarity": 0.5573881705799365
+    },
+    {
+      "movieId": 356,
+      "title": "Forrest Gump (1994)",
+      "genres": "Comedy|Drama|Romance|War",
+      "similarity": 0.5470959079401742
+    },
+    {
+      "movieId": 364,
+      "title": "Lion King, The (1994)",
+      "genres": "Adventure|Animation|Children|Drama|Musical|IMAX",
+      "similarity": 0.5411453494602336
+    },
+    {
+      "movieId": 1210,
+      "title": "Star Wars: Episode VI - Return of the Jedi (1983)",
+      "genres": "Action|Adventure|Sci-Fi",
+      "similarity": 0.541089304772584
+    },
+    {
+      "movieId": 648,
+      "title": "Mission: Impossible (1996)",
+      "genres": "Action|Adventure|Mystery|Thriller",
+      "similarity": 0.5389127705583574
+    },
+    {
+      "movieId": 1265,
+      "title": "Groundhog Day (1993)",
+      "genres": "Comedy|Fantasy|Romance",
+      "similarity": 0.5341687625843441
+    },
+    {
+      "movieId": 1270,
+      "title": "Back to the Future (1985)",
+      "genres": "Adventure|Comedy|Sci-Fi",
+      "similarity": 0.5303813465217206
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ratings_rows": 100836,
+  "ratings_columns": 4,
+  "movies_rows": 9742,
+  "movies_columns": 3,
+  "unique_users": 610,
+  "unique_movies_rated": 9724,
+  "movie_catalog_size": 9742,
+  "ratings_missing_cells": 0,
+  "movies_missing_cells": 0,
+  "ratings_duplicate_rows": 0,
+  "movies_duplicate_rows": 0,
+  "rating_min": 0.5,
+  "rating_max": 5.0,
+  "rating_mean": 3.501556983616962,
+  "ratings_dtypes": {
+    "userId": "int64",
+    "movieId": "int64",
+    "rating": "float64",
+    "timestamp": "int64"
+  },
+  "movies_dtypes": {
+    "movieId": "int64",
+    "title": "str",
+    "genres": "str"
+  },
+  "invalid_rating_rows": 0,
+  "rows_after_cleaning": 100836,
+  "rows_removed_by_cleaning": 0
+}
